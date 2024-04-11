@@ -166,12 +166,31 @@ footer h3{
   
   /* Contenedor de cada producto */
   .producto {
-    width: 80%;
+    width: 60%;
     border: 4px ridge #8eccda;
     border-radius: 10px;
     padding: 15px;
     background-color: #f7f7f7;
     display: grid;
     place-items: center;
+  }
+
+  .contenedor_img {
+    overflow: hidden;
+    height: 30vh;
+    width: 30vw;
+  }
+  
+  /* Estilos para la imagen */
+  .producto .contenedor_img img {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  header img {
+    height: 100px;
+    width: 100%;
   }
 }
