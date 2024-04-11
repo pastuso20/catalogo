@@ -150,6 +150,10 @@ footer h3{
   padding-top: 20px;
 }
 
+footer a{
+  color: white;
+}
+
 .paginacion .pag_actual .no-active{
   background-color: gray;
 }
@@ -196,5 +200,8 @@ footer h3{
   header img {
     height: 100px;
     width: 100%;
+  }
+  .paginacion .pag_actual .no-active{
+    background-color: gray;
   }
 }
