@@ -149,6 +149,10 @@ footer h3{
   margin-top: 50px;
   padding-top: 20px;
 }
+
+.paginacion .pag_actual .no-active{
+  background-color: gray;
+}
 /* Estilos para la sección de productos en dispositivos móviles */
 @media (max-width: 768px) {
   .contenedor_img {
